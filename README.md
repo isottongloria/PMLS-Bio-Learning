@@ -37,7 +37,7 @@ Here's an overview of the main components in this repository:
    * This notebook provides a baseline to compare standard learning methods with bio-inspired learning.  
    * It leverages GPU support for end-to-end training efficiency.
 
-2. **`biolearning.ipynb`**  
+2. **`Bio learner.ipynb`** +**`bio_utils.py`**  
    * A reproduction of the **biologically-inspired unsupervised learning** approach from the original paper, followed by a supervised layer.  
    * This notebook showcases the core unsupervised learning technique that drives this entire project, demonstrating how competing hidden units can help the network learn without backpropagation.
 
