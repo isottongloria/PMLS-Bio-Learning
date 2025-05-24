@@ -32,20 +32,20 @@ In this repository, I extend the paper's work in three exciting directions:
 
 Here's an overview of the main components in this repository:
 
-1. **`backpropagation.ipynb`**  
+1. **./notebooks/`backpropagation.ipynb`**  
    * A Google Colab-ready notebook to train a simple feedforward neural network on **MNIST**, **CIFAR-10**, and **SASHIO-MIST** using conventional **backpropagation**.  
    * This notebook provides a baseline to compare standard learning methods with bio-inspired learning.  
    * It leverages GPU support for end-to-end training efficiency.
 
-2. **`multilayer_bio_learning.ipynb`**
+2. **./notebooks/`multilayer_bio_learning.ipynb`**
   * A reproduction of the **biologically-inspired unsupervised learning** approach from the original paper, followed by a supervised layer.  
    * An extended **multi-layer version** of unsupervised learning, where we add depth to the network using multiple hidden layers, followed by a final supervised layer.  
    * This notebook demonstrates the potential of multi-layer architectures in bio-inspired learning setups, and allows comparison to see if deeper unsupervised models yield better representations.
 
-3. **`EI_bio_learning.ipynb`**
+3. **./notebooks/`EI_bio_learning.ipynb`**
    * An extended **EI version** of unsupervised learnin
     
-4. **`images`**
+4. **./`images`**
    * this directory contains all the important results (plots ..)
 ---
 
