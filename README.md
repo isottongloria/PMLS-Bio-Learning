@@ -24,7 +24,7 @@ In this repository, I extend the paper's work in three exciting directions:
    
 2. **Multi-Layer Unsupervised Learning:** I explore the effectiveness of unsupervised learning across multiple hidden layers, followed by a final supervised layer, to see if deeper unsupervised architectures enhance learning.
 
-3. **Synaptic Specialization:** I dive into biologically-plausible dynamics by experimenting with networks that have **only excitatory or only inhibitory synapses** in hidden layers, adding another layer of bio-inspired realism.
+3. **Synaptic Specialization:** I dive into biologically-plausible dynamics by experimenting with networks that have **fixed excitatory and inhibitory synapses** in hidden layers, adding another layer of bio-inspired realism.
 
 ---
 
@@ -37,16 +37,16 @@ Here's an overview of the main components in this repository:
    * This notebook provides a baseline to compare standard learning methods with bio-inspired learning.  
    * It leverages GPU support for end-to-end training efficiency.
 
-2. **`Bio learner.ipynb`** +**`bio_utils.py`**  
-   * A reproduction of the **biologically-inspired unsupervised learning** approach from the original paper, followed by a supervised layer.  
-   * This notebook showcases the core unsupervised learning technique that drives this entire project, demonstrating how competing hidden units can help the network learn without backpropagation.
-
-3. **`multilayer_bio_learning.ipynb`**  
+2. **`multilayer_bio_learning.ipynb`**
+  * A reproduction of the **biologically-inspired unsupervised learning** approach from the original paper, followed by a supervised layer.  
    * An extended **multi-layer version** of unsupervised learning, where we add depth to the network using multiple hidden layers, followed by a final supervised layer.  
    * This notebook demonstrates the potential of multi-layer architectures in bio-inspired learning setups, and allows comparison to see if deeper unsupervised models yield better representations.
 
-4. **`output`**
-   * this directory contains all the results (plots, weights ..)
+3. **`EI_bio_learning.ipynb`**
+   * An extended **EI version** of unsupervised learnin
+    
+4. **`images`**
+   * this directory contains all the important results (plots ..)
 ---
 
 ### 🧩 Getting Started
