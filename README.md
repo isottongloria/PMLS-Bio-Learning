@@ -57,6 +57,15 @@ Each notebook is designed to be self-contained, allowing you to jump right into 
 - **Requirements**: Ensure you have the necessary libraries installed, which are detailed at the start of each notebook.
 
 
+### References and important resources
+
+- Krotov & Hopfield (2019) – Unsupervised learning by competing hidden units, PNAS, 116(16), 7723–7731. https://doi.org/10.1073/pnas.1820458116
+- Univ. of Padua – Physics of Data MSc 2023/24 – Physical Models of Living Systems – Prof. S. Suweis – Notes by G. Cataldi, F. M.
+- Song et al. (2016) – Training EI-RNNs for Cognitive Tasks, PLOS Comput Biol, 12(2): e1004792.
+- Dayan (2023) – Hebbian Learning: Biologically Plausible Alternative to Backpropagation, Medium.
+- Siri et al. (2007) – Effects of Hebbian learning on the dynamics and structure of random networks with inhibitory and excitatory neurons, Journal of Physiology-Paris, 101(1–3), 136–148.
+
+
 ### Performances and time to run
 
 These simulations were performed on the `NVIDIA GeForce RTX 4050` GPU of my laptop, with each run taking approximately 1 to 5 minutes. The code also runs smoothly on Google Colab. Running on a CPU is possible, but significantly slower.
