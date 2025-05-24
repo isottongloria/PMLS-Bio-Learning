@@ -56,6 +56,12 @@ Each notebook is designed to be self-contained, allowing you to jump right into 
 - **Google Colab**: If you want to train models with GPU support, use Google Colab for a seamless experience, especially with `backpropagation.ipynb`.
 - **Requirements**: Ensure you have the necessary libraries installed, which are detailed at the start of each notebook.
 
+
+### Performances and time to run
+
+These simulations were performed on the `NVIDIA GeForce RTX 4050` GPU of my laptop, with each run taking approximately 1 to 5 minutes. The code also runs smoothly on Google Colab. Running on a CPU is possible, but significantly slower.
+
+
 ---
 
 ### Let’s Dive In!
