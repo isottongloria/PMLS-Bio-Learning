@@ -1,4 +1,5 @@
-<h1 align="center">Physical models of living systems project - PoD<br> University of Padua <br> 2023/2024</h1>
+<h1 align="center"> Unsupervised learning by competing hidden units <br>
+  Physical models of living systems project - PoD<br> University of Padua <br> 2023/2024</h1>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/62724611/166108149-7629a341-bbca-4a3e-8195-67f469a0cc08.png" height="120"/>
